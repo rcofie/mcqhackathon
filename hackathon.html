@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+
+<!--[if lt IE 7]> <html lang="en" class="ie6"> <![endif]-->
+<!--[if IE 7]>    <html lang="en" class="ie7"> <![endif]-->
+<!--[if IE 8]>    <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]>    <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+  <!--<![endif]-->
+  <head>
+    <link rel="stylesheet" href="newcss-2.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/fdg2sox.css">
+    <script type="text/javascript" src="jquery.min.1.7.js"></script>
+    <script type="text/javascript" src="modernizr.2.5.3.min.js"></script>
+  </head>
+
+    <div class="progress"></div>
+
+    <body>
+      <header>
+        <a href="#"
+        >
+        <svg width="276" height="137" viewBox="0 0 177 88" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M40.72 30.48H0V40.29H40.72V30.48Z" fill="white"/>
+          <path d="M40.72 15.24H0V25.06H40.72V15.24Z" fill="white"/>
+          <path d="M40.72 0H0V9.82H40.72V0Z" fill="white"/>
+          <path d="M85.99 30.48H56.37V40.29H85.99V30.48Z" fill="white"/>
+          <path d="M85.99 0H56.37V9.82H85.99V0Z" fill="white"/>
+          <path d="M131.27 30.48H90.55V40.29H131.27V30.48Z" fill="white"/>
+          <path d="M131.27 15.24H90.55V25.06H131.27V15.24Z" fill="white"/>
+          <path d="M131.27 0H90.55V9.82H131.27V0Z" fill="white"/>
+          <path d="M86 15.24H78.57V25.06H86V15.24Z" fill="white"/>
+          <path d="M143.25 0H135.82V40.3H143.25V0Z" fill="white"/>
+          <path d="M165.44 15.24H158.01V40.3H165.44V15.24Z" fill="white"/>
+          <path d="M154.34 0H146.91V25.06H154.34V0Z" fill="white"/>
+          <path d="M176.54 0H169.11V40.3H176.54V0Z" fill="white"/>
+          <path d="M52.71 0H45.28V40.3H52.71V0Z" fill="white"/>
+          <path d="M7.43 47.36H0V87.66H7.43V47.36Z" fill="white"/>
+          <path d="M29.62 62.6H11.1V72.42H29.62V62.6Z" fill="white"/>
+          <path d="M40.72 47.36H33.29V87.66H40.72V47.36Z" fill="white"/>
+          <path d="M86 77.84H45.28V87.65H86V77.84Z" fill="white"/>
+          <path d="M86 47.36H45.28V57.18H86V47.36Z" fill="white"/>
+          <path d="M123.84 77.84H90.55V87.65H123.84V77.84Z" fill="white"/>
+          <path d="M131.27 47.36H90.55V57.18H131.27V47.36Z" fill="white"/>
+          <path d="M97.98 62.6H90.55V72.42H97.98V62.6Z" fill="white"/>
+          <path d="M131.26 62.6H112.74V72.42H131.26V62.6Z" fill="white"/>
+          <path d="M143.25 47.36H135.82V87.66H143.25V47.36Z" fill="white"/>
+          <path d="M165.44 62.6H146.92V72.42H165.44V62.6Z" fill="white"/>
+          <path d="M176.54 47.36H169.11V87.66H176.54V47.36Z" fill="white"/>
+          <path d="M74.9 62.6H67.47V72.42H74.9V62.6Z" fill="white"/>
+          <path d="M63.8 62.6H56.37V72.42H63.8V62.6Z" fill="white"/>
+          </svg>
+          
+          </a>
+
+        <nav>
+          <a href="#">ABOUT</a>
+          <a href="#">STOCKISTS</a>
+          <a href="#">FEED</a>
+        </nav>
+      </header>
+
+      <div class="flipbook-viewport">
+        <div class="container">
+          <div class="flipbook">
+            <div style="background-image: url(https://raw.githubusercontent.com/rcofie/mcqhackathon/main/1.jpg)"></a></div>
+            <div style="background-image: url(https://raw.githubusercontent.com/rcofie/mcqhackathon/main/2.jpg)"></div>
+            <div style="background-image: url(https://raw.githubusercontent.com/rcofie/mcqhackathon/main/3.gif)"></div>
+            <div style="background-image: url(https://raw.githubusercontent.com/rcofie/mcqhackathon/main/4.jpg)"></div>
+            <div style="background-image: url(https://raw.githubusercontent.com/rcofie/mcqhackathon/main/5.jpg)"></div>
+          </div>
+        </div>
+      </div>
+  
+      <script type="text/javascript">
+        function loadApp() {
+          // Create the flipbook
+  
+          $('.flipbook').turn({
+            // Width
+  
+            width: 922,
+  
+            // Height
+  
+            height: 600,
+  
+            // Elevation
+  
+            elevation: 50,
+  
+            // Enable gradients
+  
+            gradients: true,
+  
+            // Auto center this flipbook
+  
+            autoCenter: true,
+          });
+        }
+  
+        // Load the HTML4 version if there's not CSS transform
+  
+        yepnope({
+          test: Modernizr.csstransforms,
+          yep: ['turn.js'],
+          nope: ['turn.html4.min.js'],
+          both: ['newcss-2.css'],
+          complete: loadApp,
+        });
+      </script>
+
+
+ 
+
+    <script src="new-javascript-elements.js"></script>
+  </body>
+  </html>
+</html>
